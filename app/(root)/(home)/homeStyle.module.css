@@ -1,0 +1,260 @@
+.container {
+  padding: 0px 147px;
+}
+
+.container .mainSection .title h1 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #ee9320;
+}
+
+.container .mainSection .title h1 span {
+  color: white;
+}
+
+.navigate_section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .secondSection {
+  margin-top: 40px;
+}
+
+.container .secondSection .suptitle h1 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.moreCard_button {
+  margin-top: 40px;
+  border: 1px solid #b9b9b9;
+  padding: 10px 14px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  color: #b9b9b9;
+  gap: 20px;
+  width: fit-content;
+  transition: all 0.6s ease-in-out;
+}
+
+.moreCard_button:hover {
+  color: white;
+  border: 1px solid #ffffff;
+  box-shadow: 0 3px 34px -7px #fff;
+  transform: scale(1.03);
+}
+
+.whatBisness {
+  margin-top: 30px;
+}
+
+.bisness_title h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ee9320;
+}
+
+.section_info {
+  border-radius: 15px;
+  background-color: #242f3f80;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.section_info p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 149%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.cardBisness {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 362px;
+  height: 529px;
+  background-color: #242f3f80;
+  border-radius: 22px;
+  padding: 27px 25px;
+}
+
+.box h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36.02px;
+  letter-spacing: 0%;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.box p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 149%;
+  letter-spacing: 0%;
+}
+
+.ReadMadeBusinessTitle h1 {
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.businessForSell {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #b9b9b9;
+  display: flex;
+  gap: 18px;
+  width: fit-content;
+  color: #b9b9b9;
+}
+
+.franchise {
+  margin-top: 60px;
+}
+
+.franchise_title h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.businessPlan {
+  margin-top: 60px;
+}
+
+.businessPlan .businessPlanTitle h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.gridBox {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(221px, 1fr));
+  gap: 10px;
+}
+
+.gridBox > div {
+  padding: 15px;
+  height: 128px;
+  background: linear-gradient(
+    180deg,
+    rgba(92, 91, 102, 0.5) -50%,
+    rgba(67, 66, 106, 0.5) -11.17%,
+    rgba(51, 50, 81, 0.5) 60.67%,
+    rgba(35, 34, 55, 0.5) 144.17%
+  );
+  border-radius: 15px;
+  border: 1px solid #ffffff40;
+}
+
+.business {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.businessTitle h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.site_business_container {
+  margin-top: 30px;
+  display: flex;
+  /* align-items: center; */
+  gap: 25px;
+}
+
+.left_site_business {
+  flex: 0.3;
+}
+
+.left_site_business > div:last-child {
+  margin-top: 30px;
+}
+
+.left_site_business > div > p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 149%;
+  letter-spacing: 0%;
+}
+
+.right_site_business {
+  flex: 1.7;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.card_box {
+  min-height: 343px;
+  height: auto;
+}
+
+.card_box > div > img {
+  width: 73px;
+  height: 72px;
+}
+
+.card_box .cardTitle h1 {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 149%;
+  letter-spacing: 0%;
+}
+
+.card_box .cardText p {
+  width: 268px;
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 149%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 780px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
